@@ -140,8 +140,8 @@ a {
 
 /* Avatar Integration Styles */
 .hero-avatar-container {
-    width: 320px;
-    height: 320px;
+    width: 380px;
+    height: 380px;
     margin: 2rem auto;
     border-radius: 16px;
     overflow: hidden;
@@ -296,6 +296,8 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 100px; /* Pushes content down so it clears the fixed header */
+  padding-bottom: 40px;
 }
 
 .hero p.tagline {
