@@ -65,9 +65,8 @@
     <main>
         <section id="hero" class="hero container" style="text-align: center;">
             
-            <!-- 3D AVATAR PLACEHOLDER: Paste your Spline <spline-viewer> or Three.js canvas in the div below -->
-            <div id="hero-avatar" class="avatar-placeholder">
-                [ REPLACE THIS DIV WITH 3D AVATAR / CANAVAS ]
+            <div class="hero-avatar-container">
+                <img src="assets/avatar.jpg.jpeg" alt="Saksham and Pacman" class="floating-avatar">
             </div>
 
             <p class="tagline mono typing">Game Designer • Available ALL AROUNdworldwidE</p>
@@ -132,16 +131,22 @@
 
         <section id="about" class="container">
             <h2 class="glitch-hover">@Saksham</h2>
-            <div style="background: rgba(57, 255, 20, 0.05); border: 1px solid var(--accent-glow); padding: 2rem; border-radius: 4px; margin-bottom: 2rem;">
-                <p style="color: var(--accent-color); font-family: var(--font-mono); margin-bottom: 1rem; font-weight: bold; text-transform: uppercase;">
-                    I’M SAKSHAM, AN ASPIRING GAME DESIGNER SPECIALIZING IN INNOVATIVE GAME MECHANICS, INDUSTRY-STANDARD DOCUMENTATION, LEVEL DESIGN, AND CHARACTER CREATION. MY PASSION FOR CRAFTING IMMERSIVE SYSTEMS AND PLAYER-CENTRIC EXPERIENCES DRIVES MY WORK
-                </p>
-                <p style="margin-bottom: 1rem;">
-                    I believe game mechanics are the heartbeat of any great game—they shape immersion, challenge, and fun. My expertise lies in developing unique mechanics that feel intuitive yet deep, designing levels that enhance gameplay flow, and creating detailed Game Design Documents (GDDs) that transform vision into reality. Alongside mechanics and systems, I craft compelling character concepts that enrich storytelling and elevate player connection.
-                </p>
-                <p>
-                    Through a balance of creativity and structure, I strive to push the boundaries of interactivity and design. My goal is to build games that captivate, inspire, and leave a lasting impression on players
-                </p>
+            
+            <div class="grid-2" style="margin-bottom: 2rem; align-items: stretch;">
+                <div class="about-image-container">
+                    <img src="assets/avatar-roof.jpg.jpeg" alt="Saksham working on a roof" class="about-avatar-img">
+                </div>
+                <div style="background: rgba(57, 255, 20, 0.05); border: 1px solid var(--accent-glow); padding: 2rem; border-radius: 4px; display: flex; flex-direction: column; justify-content: center;">
+                    <p style="color: var(--accent-color); font-family: var(--font-mono); margin-bottom: 1rem; font-weight: bold; text-transform: uppercase;">
+                        I’M SAKSHAM, AN ASPIRING GAME DESIGNER SPECIALIZING IN INNOVATIVE GAME MECHANICS, INDUSTRY-STANDARD DOCUMENTATION, LEVEL DESIGN, AND CHARACTER CREATION. MY PASSION FOR CRAFTING IMMERSIVE SYSTEMS AND PLAYER-CENTRIC EXPERIENCES DRIVES MY WORK
+                    </p>
+                    <p style="margin-bottom: 1rem;">
+                        I believe game mechanics are the heartbeat of any great game—they shape immersion, challenge, and fun. My expertise lies in developing unique mechanics that feel intuitive yet deep, designing levels that enhance gameplay flow, and creating detailed Game Design Documents (GDDs) that transform vision into reality. Alongside mechanics and systems, I craft compelling character concepts that enrich storytelling and elevate player connection.
+                    </p>
+                    <p>
+                        Through a balance of creativity and structure, I strive to push the boundaries of interactivity and design. My goal is to build games that captivate, inspire, and leave a lasting impression on players
+                    </p>
+                </div>
             </div>
 
             <!-- Stats Component -->
@@ -164,7 +169,10 @@
                 </div>
             </div>
             
-            <p class="mono" style="text-align:center; color: var(--accent-color); margin-bottom: 3rem;">AN ASPIRING GAME DESIGNER SPECIALIZING IN INNOVATIVE MECHANICS, LEVEL DESIGN, AND INDUSTRY-STANDARD GDDs, DEDICATED TO CRAFTING IMMERSIVE PLAYER EXPERIENCES.</p>
+            <div class="avatar-banner-wrapper">
+                <img src="assets/avatar-switch.jpg.jpeg" alt="Saksham Design Philosophy" class="banner-avatar">
+                <div class="banner-text">AN ASPIRING GAME DESIGNER SPECIALIZING IN INNOVATIVE MECHANICS, LEVEL DESIGN, AND INDUSTRY-STANDARD GDDs, DEDICATED TO CRAFTING IMMERSIVE PLAYER EXPERIENCES.</div>
+            </div>
 
             <div class="grid-2">
                 <div>
@@ -265,8 +273,11 @@
                 <a href="https://drive.google.com/file/d/1qhVgJQmRGcBz85EK0JZIuz8gSwq7FkEr/view?usp=sharing" target="_blank" class="btn">Download Resume</a>
             </div>
             
-            <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
-                <p class="mono" style="font-weight: bold; color: #fff;"># Saksham</p>
+            <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color); display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <img src="assets/avatar-switch.jpg.jpeg" alt="Saksham profile" style="width: 45px; height: 45px; border-radius: 50%; border: 2px solid var(--accent-color); object-fit: cover; object-position: top;">
+                    <p class="mono" style="font-weight: bold; color: #fff; margin: 0;"># Saksham</p>
+                </div>
                 <a href="#hero" class="mono" style="font-size: 0.85rem;">Back To Top</a>
             </div>
         </div>
