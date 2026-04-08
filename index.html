@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saksham Singh | Game Designer</title>
+    <meta name="description" content="Portfolio of Saksham Singh, an aspiring Game Designer specializing in innovative game mechanics, level design, and GDDs.">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .avatar-placeholder {
+            width: 100%;
+            height: 400px;
+            max-width: 600px;
+            margin: 2rem auto;
+            border: 2px dashed var(--accent-color);
+            background: rgba(57, 255, 20, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-color);
+            font-family: var(--font-mono);
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+            padding: 1rem;
+        }
+        .process-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+            margin-bottom: 4rem;
+        }
+        .process-item {
+            padding: 2rem;
+            border: 1px solid var(--border-color);
+            background: var(--bg-surface);
+            transition: var(--transition);
+        }
+        .process-item:hover {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 15px var(--accent-glow);
+        }
+    </style>
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="pacman-chaser"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo glitch-hover">SAKSHAM</div>
+                <div class="nav-links">
+                    <a href="#about">ABOUT</a>
+                    <a href="#portfolio">PORTFOLIO</a>
+                    <a href="#experience">EXPERIENCE</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero container" style="text-align: center;">
+            
+            <!-- 3D AVATAR PLACEHOLDER: Paste your Spline <spline-viewer> or Three.js canvas in the div below -->
+            <div id="hero-avatar" class="avatar-placeholder">
+                [ REPLACE THIS DIV WITH 3D AVATAR / CANAVAS ]
+            </div>
+
+            <p class="tagline mono typing">Game Designer • Available ALL AROUNdworldwidE</p>
+            <h1 class="glitch-hover" style="margin-top: 1rem; font-weight: 900; letter-spacing: -2px;">Designing Play. Designing Challenge</h1>
+
+            <div class="process-list" style="text-align: left;">
+                <div class="process-item">
+                    <h3 class="mono" style="color: var(--accent-color); margin-bottom: 0.5rem;">Discover and Analysis</h3>
+                    <p>Research player needs, study references, and define core gameplay goals.</p>
+                </div>
+                <div class="process-item">
+                    <h3 class="mono" style="color: var(--accent-color); margin-bottom: 0.5rem;">Design and Implement</h3>
+                    <p>Prototype mechanics, build levels, and bring interactive ideas to life</p>
+                </div>
+                <div class="process-item">
+                    <h3 class="mono" style="color: var(--accent-color); margin-bottom: 0.5rem;">Test & Iterate</h3>
+                    <p>Playtest designs, balance difficulty, and refine for maximum player engagement</p>
+                </div>
+            </div>
+            
+            <div>
+                <a href="#portfolio" class="btn">View Portfolio</a>
+                <a href="#contact" class="btn" style="margin-left: 1rem;">Contact Now</a>
+            </div>
+        </section>
+
+        <section id="portfolio" class="container">
+            <h2 class="glitch-hover">Portfolio</h2>
+            <p>My creative spirit comes alive in the digital realm. With nimble fingers flying across the device.</p>
+            <div class="projects-grid">
+                <a href="projects/arcana-clash.html" class="project-card">
+                    <img src="assets/arcana-clash-cover.png.jpg" alt="Arcana Clash Concept" class="project-img">
+                    <div class="project-info">
+                        <p class="mono" style="color: var(--accent-color); margin-bottom: 0.5rem;">Speed & Strategy Card Game</p>
+                        <h3 class="glitch-hover">Arcana Clash</h3>
+                        <p style="margin-top: 0.5rem; font-size: 0.95rem;">The Ultimate Speed & Strategy Card Game. Combines quick-reflex tabletop gameplay with deep magical synergies and competitive card-dealing mechanics.</p>
+                        <p class="mono" style="margin-top: 1rem; font-size: 0.8rem; color: #fff;">Aug 2025 - Nov 2025</p>
+                    </div>
+                </a>
+
+                <a href="projects/blood-ties.html" class="project-card">
+                    <img src="assets/blood-ties-cover.png.png" alt="Blood Ties Concept" class="project-img">
+                    <div class="project-info">
+                        <p class="mono" style="color: var(--accent-color); margin-bottom: 0.5rem;">A first-person action game prototype</p>
+                        <h3 class="glitch-hover">blood ties</h3>
+                        <p style="margin-top: 0.5rem; font-size: 0.95rem;">Story-driven FPS where the player must rescue their kidnapped brother from a gang. Features progressive narrative twist where the brother becomes the final boss. Focus on tight combat mechanics, encounter design, and pacing.</p>
+                        <p class="mono" style="margin-top: 1rem; font-size: 0.8rem; color: #fff;">JAN 2025 - MAR 2025</p>
+                    </div>
+                </a>
+
+                <a href="projects/cryostasis.html" class="project-card">
+                    <img src="assets/cryostasis-cover.png.png" alt="Cryostasis Concept" class="project-img">
+                    <div class="project-info">
+                        <p class="mono" style="color: var(--accent-color); margin-bottom: 0.5rem;">Sci-fi survival horror prototype</p>
+                        <h3 class="glitch-hover">Cryostasis</h3>
+                        <p style="margin-top: 0.5rem; font-size: 0.95rem;">Player awakens from a cryopod in a ruined space station shrouded in darkness. Core gameplay revolves around exploration, resource management, and tension. Strong focus on atmosphere, level flow, and environmental storytelling.</p>
+                        <p class="mono" style="margin-top: 1rem; font-size: 0.8rem; color: #fff;">Aug 2024- Sep 2024</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2 class="glitch-hover">@Saksham</h2>
+            <div style="background: rgba(57, 255, 20, 0.05); border: 1px solid var(--accent-glow); padding: 2rem; border-radius: 4px; margin-bottom: 2rem;">
+                <p style="color: var(--accent-color); font-family: var(--font-mono); margin-bottom: 1rem; font-weight: bold; text-transform: uppercase;">
+                    I’M SAKSHAM, AN ASPIRING GAME DESIGNER SPECIALIZING IN INNOVATIVE GAME MECHANICS, INDUSTRY-STANDARD DOCUMENTATION, LEVEL DESIGN, AND CHARACTER CREATION. MY PASSION FOR CRAFTING IMMERSIVE SYSTEMS AND PLAYER-CENTRIC EXPERIENCES DRIVES MY WORK
+                </p>
+                <p style="margin-bottom: 1rem;">
+                    I believe game mechanics are the heartbeat of any great game—they shape immersion, challenge, and fun. My expertise lies in developing unique mechanics that feel intuitive yet deep, designing levels that enhance gameplay flow, and creating detailed Game Design Documents (GDDs) that transform vision into reality. Alongside mechanics and systems, I craft compelling character concepts that enrich storytelling and elevate player connection.
+                </p>
+                <p>
+                    Through a balance of creativity and structure, I strive to push the boundaries of interactivity and design. My goal is to build games that captivate, inspire, and leave a lasting impression on players
+                </p>
+            </div>
+
+            <!-- Stats Component -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">3+</div>
+                    <div class="mono" style="font-size: 0.8rem;">YEARS of Game Design Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">40+</div>
+                    <div class="mono" style="font-size: 0.8rem;">Mechanics Documented</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="mono" style="font-size: 0.8rem;">months of work experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1</div>
+                    <div class="mono" style="font-size: 0.8rem;">ONGOING GAME PROJECT</div>
+                </div>
+            </div>
+            
+            <p class="mono" style="text-align:center; color: var(--accent-color); margin-bottom: 3rem;">AN ASPIRING GAME DESIGNER SPECIALIZING IN INNOVATIVE MECHANICS, LEVEL DESIGN, AND INDUSTRY-STANDARD GDDs, DEDICATED TO CRAFTING IMMERSIVE PLAYER EXPERIENCES.</p>
+
+            <div class="grid-2">
+                <div>
+                    <h2 class="glitch-hover" style="font-size: 2rem;">DESIGN CAPABILITIES</h2>
+                    <p style="margin-bottom: 1.5rem;">A comprehensive set of design skills to build, refine, and bring game concepts to life.</p>
+                    <ul class="skill-list" style="list-style: none;">
+                        <li>
+                            <span class="skill-name">Game Mechanic Design</span>
+                            <span class="skill-desc" style="font-size: 0.85rem;">BALANCED SYSTEMS, INNOVATIVE INTERACTIONS</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">Game Design Documentation (GDD)</span>
+                            <span class="skill-desc" style="font-size: 0.85rem;">INDUSTRY-STANDARD DOCUMENTS, DETAILED GAME FLOWS</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">Level Design</span>
+                            <span class="skill-desc" style="font-size: 0.85rem;">IMMERSIVE ENVIRONMENTS, PLAYER-CENTERED FLOW</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">Character Design</span>
+                            <span class="skill-desc" style="font-size: 0.85rem;">VISUAL IDENTITY, LORE-DRIVEN CREATION</span>
+                        </li>
+                        <li>
+                            <span class="skill-name">Prototype & Playtesting</span>
+                            <span class="skill-desc" style="font-size: 0.85rem;">ITERATION, BALANCE, USER FEEDBACK</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="glitch-hover" style="font-size: 2rem;">Stack & Tools</h2>
+                    <br>
+                    <ul class="skill-list" style="list-style: none;">
+                        <li style="flex-direction: column;">
+                            <span class="skill-name">UNREAL ENGINE (BLUEPRINTS)</span>
+                            <span class="skill-desc" style="font-size: 0.85rem; color: var(--accent-color); margin-bottom: 0.5rem;">GAME ENGINE / VISUAL SCRIPTING</span>
+                            <p style="font-size: 0.9rem;">The internet is your canvas. Framer is where design and publish stunning sites based in Amsterdam. (Note: Kept exact text from framer reference)</p>
+                        </li>
+                        <li style="flex-direction: column; margin-top: 1rem;">
+                            <span class="skill-name">WORD SUITE (WORD, POWERPOINT, EXCEL)</span>
+                            <span class="skill-desc" style="font-size: 0.85rem; color: var(--accent-color); margin-bottom: 0.5rem;">DOCUMENTATION & DESIGN TOOLS</span>
+                            <p style="font-size: 0.9rem;">Creating structured Game Design Documents (GDDs), mechanic writeups, presentation decks, and balancing systems with Excel.</p>
+                        </li>
+                        <li style="flex-direction: column; margin-top: 1rem;">
+                            <span class="skill-name">AI-ASSISTED DESIGN (MIDJOURNEY, STABLE DIFFUSION, DALL·E)</span>
+                            <span class="skill-desc" style="font-size: 0.85rem; color: var(--accent-color); margin-bottom: 0.5rem;">CONCEPT ART & ILLUSTRATION</span>
+                            <p style="font-size: 0.9rem;">Using AI tools to generate concept art for characters, environments, and narrative elements, helping visualize worlds quickly.</p>
+                        </li>
+                        <li style="flex-direction: column; margin-top: 1rem;">
+                            <span class="skill-name">FIGMA</span>
+                            <span class="skill-desc" style="font-size: 0.85rem; color: var(--accent-color); margin-bottom: 0.5rem;">COLLABORATIVE PLANNING</span>
+                            <p style="font-size: 0.9rem;">Organizing game flows, wireframing level layouts, brainstorming systems, and mapping player journeys.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="container">
+            <h2 class="glitch-hover">EXPERIENCE</h2>
+            <div style="max-width: 800px; margin-top: 2rem;">
+                <div class="exp-item">
+                    <h3 style="margin: 0.5rem 0;">Arcana Clash</h3>
+                    <p class="mono" style="color: var(--accent-color); margin-bottom: 0.2rem;">Game Designer</p>
+                    <p class="mono" style="color: #fff; margin-bottom: 0.5rem; font-size: 0.85rem;">Aug 2025 - Nov 2025</p>
+                    <p>Designed core rules, drafted card synergies, and balanced the economy for a fast-paced tabletop strategy card game.</p>
+                </div>
+                <div class="exp-item">
+                    <h3 style="margin: 0.5rem 0;">Haika Studio</h3>
+                    <p class="mono" style="color: var(--accent-color); margin-bottom: 0.2rem;">Game Designer</p>
+                    <p class="mono" style="color: #fff; margin-bottom: 0.5rem; font-size: 0.85rem;">Apr 2025 – Jul 2025</p>
+                    <p>Gained hands‑on experience in game design with a focus on game mechanics and level design. Contributed to the Game Design Document (GDD), supported project documentation, and collaborated with artists on concept art. Worked closely with the development team to ensure design concepts were optimized and translated into engaging, playable experiences</p>
+                </div>
+                <div class="exp-item">
+                    <h3 style="margin: 0.5rem 0;">blood ties</h3>
+                    <p class="mono" style="color: var(--accent-color); margin-bottom: 0.2rem;">A first-person action game prototype</p>
+                    <p class="mono" style="color: #fff; margin-bottom: 0.5rem; font-size: 0.85rem;">JAN 2025 - MAR 2025</p>
+                    <p>Story-driven FPS where the player must rescue their kidnapped brother from a gang. Features progressive narrative twist where the brother becomes the final boss. Focus on tight combat mechanics, encounter design, and pacing.</p>
+                </div>
+                <div class="exp-item">
+                    <h3 style="margin: 0.5rem 0;">Cryostasis</h3>
+                    <p class="mono" style="color: var(--accent-color); margin-bottom: 0.2rem;">Sci-fi survival horror prototype</p>
+                    <p class="mono" style="color: #fff; margin-bottom: 0.5rem; font-size: 0.85rem;">Aug 2024- Sep 2024</p>
+                    <p>Player awakens from a cryopod in a ruined space station shrouded in darkness. Core gameplay revolves around exploration, resource management, and tension. Strong focus on atmosphere, level flow, and environmental storytelling.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <h2 class="glitch-hover" style="margin-bottom: 1rem;">TOGETHER</h2>
+            
+            <p style="margin-top: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">BASED IN Delhi , a game designer focused on creating innovative mechanics, industry-standard documentation, immersive levels, and engaging character designs. My work is driven by a passion for building player-centric systems and unforgettable gameplay experiences</p>
+            
+            <div class="social-links" style="margin-top: 2rem;">
+                <a href="mailto:Saksham3979@gmail.com" class="btn">GMAIL</a>
+                <a href="https://www.linkedin.com/in/saksham-singh-1373432a5/" target="_blank" class="btn">LinkedIn</a>
+                <a href="https://drive.google.com/file/d/1qhVgJQmRGcBz85EK0JZIuz8gSwq7FkEr/view?usp=sharing" target="_blank" class="btn">Download Resume</a>
+            </div>
+            
+            <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+                <p class="mono" style="font-weight: bold; color: #fff;"># Saksham</p>
+                <a href="#hero" class="mono" style="font-size: 0.85rem;">Back To Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

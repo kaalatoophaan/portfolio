@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Ties | Saksham Singh</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .project-hero {
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(to top, var(--bg-color), transparent), linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../assets/blood-ties-cover.png.png') center/cover;
+            border-bottom: 1px solid var(--accent-glow);
+        }
+        .content-section { max-width: 900px; margin: 0 auto; padding: 4rem 2rem; position: relative; z-index: 1;}
+        .meta-list { display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 3rem; color: var(--text-secondary); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; font-family: var(--font-mono); border: 1px solid var(--border-color); padding: 1.5rem; background: rgba(10,10,10,0.5); border-radius: 2px;}
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 ratio */
+            height: 0;
+            overflow: hidden;
+            border: 1px solid var(--accent-glow);
+            margin: 3rem 0;
+            background: #000;
+        }
+        .video-container iframe, .video-container .mock-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-color);
+            font-family: var(--font-mono);
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .gdd-download {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.5rem;
+            background: rgba(57, 255, 20, 0.05);
+            border: 1px solid var(--accent-color);
+            margin: 3rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="pacman-chaser"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo glitch-hover"><a href="../index.html">SAKSHAM</a></div>
+                <div class="nav-links">
+                    <a href="../index.html#projects">RETURN_TO_DIR</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <p class="tagline mono typing">EXECUTING: BLOOD_TIES.EXE</p>
+                <h1 class="glitch-hover" style="font-size: clamp(3rem, 6vw, 5rem); margin-top: 1rem;">Blood Ties</h1>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="meta-list">
+                <div><span style="color: var(--accent-color);">ROLE::</span> Game Designer</div>
+                <div><span style="color: var(--accent-color);">TIMELINE::</span> Jan 2025 - Mar 2025</div>
+                <div><span style="color: var(--accent-color);">ENGINE::</span> Unreal Engine</div>
+                <div><span style="color: var(--accent-color);">GENRE::</span> First-Person Action</div>
+            </div>
+
+            <h2 class="glitch-hover" style="margin-top: 2rem;">Mission Briefing / Overview</h2>
+            <p>Story-driven FPS where the player must rescue their kidnapped brother from a gang. The game features a progressive narrative twist where the brother ultimately becomes the final boss. My focus was on executing tight combat mechanics, challenging encounter design, and deliberate pacing that aligns with the story's rising tension.</p>
+
+            <div class="video-container">
+                <iframe src="https://drive.google.com/file/d/15l9tSExgWbG7ioNcpaAI8l4ACJxEaevG/preview" allow="autoplay" allowfullscreen></iframe>
+            </div>
+
+            <div class="grid-2" style="margin-top: 3rem;">
+                <div>
+                    <h3 class="glitch-hover" style="margin-bottom: 1.5rem; font-size: 1.5rem;">Core Mechanics</h3>
+                    <ul>
+                        <li style="margin-bottom: 1rem; padding-left: 1rem; border-left: 1px solid var(--accent-color);"><strong>Visceral Gunplay:</strong> Designed responsive feedback loops to make every interaction feel impactful. Heavy focus on hitscan validation and audio-visual punch.</li>
+                        <li style="margin-bottom: 1rem; padding-left: 1rem; border-left: 1px solid var(--accent-color);"><strong>Dynamic Encounters:</strong> Level layouts emphasize verticality and flanking, encouraging players to move aggressively rather than playing defensively.</li>
+                        <li style="margin-bottom: 1rem; padding-left: 1rem; border-left: 1px solid var(--accent-color);"><strong>Narrative Pacing:</strong> Used environmental storytelling and enemy placements to foreshadow the final confrontation without explicit cutscenes.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="glitch-hover" style="margin-bottom: 1.5rem; font-size: 1.5rem;">Level Design Philosophy</h3>
+                    <p>The levels in Blood Ties are designed as "combat bowls". Each arena has clear entry and exit points, with central structures creating organic cover. Ammo and health pickups are strategically placed to naturally guide the player through the intended golden path during firefights.</p>
+                </div>
+            </div>
+
+            <div class="gdd-download">
+                <div>
+                    <h3 style="margin-bottom: 0.5rem; font-family: var(--font-mono);">[ ARCHIVE: GAME DESIGN DOCUMENT ]</h3>
+                    <p style="font-size: 0.9rem; margin: 0;">Comprehensive GDD detailing mechanics, level flows, and AI behavior.</p>
+                </div>
+                <a href="https://docs.google.com/document/d/1nDIxiBK3AZMPHsR_ktCdB4TbzT1IkeEm/edit?usp=drive_link&ouid=100468510971472993184&rtpof=true&sd=true" target="_blank" class="btn" style="margin: 0;">OPEN DOCUMENT</a>
+            </div>
+
+            <div style="margin-top: 6rem; text-align: center;">
+                <a href="../index.html#projects" class="btn">TERMINATE_SESSION</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="mono">&copy; 2026 SAKSHAM SINGH</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

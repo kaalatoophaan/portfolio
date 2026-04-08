@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcana Clash | Saksham Singh</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .project-hero {
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(to top, var(--bg-color), transparent), linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../assets/arcana-clash-cover.png.jpg') center/cover;
+            border-bottom: 1px solid var(--accent-glow);
+        }
+        .content-section { max-width: 900px; margin: 0 auto; padding: 4rem 2rem; position: relative; z-index: 1;}
+        .meta-list { display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 3rem; color: var(--text-secondary); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; font-family: var(--font-mono); border: 1px solid var(--border-color); padding: 1.5rem; background: rgba(10,10,10,0.5); border-radius: 2px;}
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 ratio */
+            height: 0;
+            overflow: hidden;
+            border: 1px solid var(--accent-glow);
+            margin: 3rem 0;
+            background: #000;
+        }
+        .video-container iframe, .video-container .mock-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-color);
+            font-family: var(--font-mono);
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .gdd-download {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.5rem;
+            background: rgba(57, 255, 20, 0.05);
+            border: 1px solid var(--accent-color);
+            margin: 3rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="pacman-chaser"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo glitch-hover"><a href="../index.html">SAKSHAM</a></div>
+                <div class="nav-links">
+                    <a href="../index.html#projects">RETURN_TO_DIR</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <p class="tagline mono typing">EXECUTING: ARCANA_CLASH.EXE</p>
+                <h1 class="glitch-hover" style="font-size: clamp(3rem, 6vw, 5rem); margin-top: 1rem;">Arcana Clash</h1>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="meta-list">
+                <div><span style="color: var(--accent-color);">ROLE::</span> Game Designer</div>
+                <div><span style="color: var(--accent-color);">TIMELINE::</span> Aug 2025 - Nov 2025</div>
+                <div><span style="color: var(--accent-color);">PLATFORM::</span> Tabletop / Digital Card Game</div>
+                <div><span style="color: var(--accent-color);">GENRE::</span> Speed & Strategy Card Game</div>
+            </div>
+
+            <h2 class="glitch-hover" style="margin-top: 2rem;">Mission Briefing / Overview</h2>
+            <p>Arcana Clash is "The Ultimate Speed & Strategy Card Game." Designed from the ground up to combine quick-reflex gameplay with deep arcanum synergies. Players compete to outpace and outwit opponents using complex deck mechanics.</p>
+
+            <div class="grid-2" style="margin-top: 3rem;">
+                <div>
+                    <h3 class="glitch-hover" style="margin-bottom: 1.5rem; font-size: 1.5rem;">Core Mechanics</h3>
+                    <ul>
+                        <li style="margin-bottom: 1rem; padding-left: 1rem; border-left: 1px solid var(--accent-color);"><strong>Paced Card Play:</strong> Cards must be dealt and activated physically or digitally with split-second timing.</li>
+                        <li style="margin-bottom: 1rem; padding-left: 1rem; border-left: 1px solid var(--accent-color);"><strong>Synergy Engine:</strong> Building strategic decks that string together magical elements to achieve burst conditions.</li>
+                        <li style="margin-bottom: 1rem; padding-left: 1rem; border-left: 1px solid var(--accent-color);"><strong>Competitive Meta:</strong> Rigorously balanced rulesets ensuring no single deck archetype dominates the arena.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="glitch-hover" style="margin-bottom: 1.5rem; font-size: 1.5rem;">Design Philosophy</h3>
+                    <p>The goal was to bridge the gap between traditional slower-paced trading card games and high-velocity tabletop experiences. Creating physical interaction rules and balancing the core economy of the cards was the central design challenge.</p>
+                </div>
+            </div>
+
+            <div class="gdd-download">
+                <div>
+                    <h3 style="margin-bottom: 0.5rem; font-family: var(--font-mono);">[ ARCHIVE: ASSETS & DESIGN ]</h3>
+                    <p style="font-size: 0.9rem; margin: 0;">Access project files and rule documentation.</p>
+                </div>
+                <a href="https://drive.google.com/file/d/1a0Huqi6LhxjJ76LWLRZVJxdfje_rN1gX/view?usp=drive_link" target="_blank" class="btn" style="margin: 0;">OPEN DOCUMENT</a>
+            </div>
+
+            <div style="margin-top: 6rem; text-align: center;">
+                <a href="../index.html#projects" class="btn">TERMINATE_SESSION</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="mono">&copy; 2026 SAKSHAM SINGH</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
